@@ -1,0 +1,25 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.extraPaths": [],
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.prospectorArgs": [
+        "--strictness=high",
+        "--max-line-length=88"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "autoDocstring.startOnNewLine": true,
+    "files.eol": "\r\n",
+}
